@@ -1,0 +1,23 @@
+{
+  "name": "mern-testing-client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:unit": "react-scripts test --watchAll=false --testPathPattern=src/tests/unit",
+    "test:integration": "react-scripts test --watchAll=false --testPathPattern=src/tests/integration",
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "cypress": "^12.10.0"
+  }
+}
